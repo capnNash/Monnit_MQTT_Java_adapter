@@ -1,0 +1,1 @@
+# Monnit_MQTT_Java_adapter
