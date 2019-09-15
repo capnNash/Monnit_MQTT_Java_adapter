@@ -1,0 +1,12 @@
+Constructed Server.
+Server started.
+Added GatewayHandler.
+Added SensorHandler.
+Added ExceptionHandler.
+Added PersistSensorHandler.
+Added PersistGatewayHandler.
+Added UnknownGatewayHandler.
+Finished all inits
+Mine Library Version: 2.1.0.1
+Subscribe handler waiting>>>>
+ClearBlade platform initialized

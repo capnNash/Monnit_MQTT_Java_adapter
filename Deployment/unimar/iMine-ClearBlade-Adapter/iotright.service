@@ -1,0 +1,11 @@
+[Unit]
+Description = IoT Right iMine Java Service
+
+[Service]
+Type = forking
+ExecStart = /usr/local/bin/iotright.sh start
+ExecStop = /usr/local/bin/iotright.sh stop
+ExecReload = /usr/local/bin/iotright.sh restart
+
+[Install]
+WantedBy=multi-user.target

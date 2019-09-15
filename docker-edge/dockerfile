@@ -1,0 +1,10 @@
+# Distribute this instead 
+
+FROM alpine
+RUN apk --no-cache add ca-certificates curl bash
+RUN curl -L https://github.com/ClearBlade/Edge/releases/download/5.3.4/edge-linux-amd64.tar.gz | tar xz && mv edge /usr/local/bin/edge
+EXPOSE 1883 1884 8903 8904 8905 8906 8950 9000
+
+# example start command, which is actually in the docker-compose.yml file
+# CMD edge -platform-ip='iotright.clearblade.com' -parent-system='8cc6c5cc0bb4b9cbf0f7d2e1fb3b' -edge-ip='localhost' -edge-id='Docker' -edge-cookie='1340E78o244VxH4j0p97n57xQn'
+

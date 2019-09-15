@@ -1,0 +1,122 @@
+Constructed Server.
+Server started.
+Added GatewayHandler.
+Added SensorHandler.
+Added ExceptionHandler.
+Added PersistSensorHandler.
+Added PersistGatewayHandler.
+Added UnknownGatewayHandler.
+Finished all inits
+Mine Library Version: 2.1.0.1
+Gateway 940597 registered.
+Here is the sensor list for this gateway:::
+[]
+940597
+Ethernet_3_0
+347452
+Humidity
+Sensor 347452 registered.
+450786
+Temperature
+Sensor 450786 registered.
+450788
+Current
+Sensor 450788 registered.
+450790
+Air_Flow_Detection
+Sensor 450790 registered.
+450791
+Pressure
+Sensor 450791 registered.
+450794
+DuctTemperature
+Sensor 450794 registered.
+450795
+Humidity 
+450796
+VibrationMeter
+Sensor 450796 registered.
+Subscribe handler waiting>>>>
+ClearBlade platform initialized
+Constructed Server.
+Server started.
+Added GatewayHandler.
+Added SensorHandler.
+Added ExceptionHandler.
+Added PersistSensorHandler.
+Added PersistGatewayHandler.
+Added UnknownGatewayHandler.
+Finished all inits
+Mine Library Version: 2.1.0.1
+Gateway 940597 registered.
+Here is the sensor list for this gateway:::
+[]
+940597
+Ethernet_3_0
+347452
+Humidity
+Sensor 347452 registered.
+450786
+Temperature
+Sensor 450786 registered.
+450788
+Current
+Sensor 450788 registered.
+450790
+Air_Flow_Detection
+Sensor 450790 registered.
+450791
+Pressure
+Sensor 450791 registered.
+450794
+DuctTemperature
+Sensor 450794 registered.
+450795
+Humidity 
+450796
+VibrationMeter
+Sensor 450796 registered.
+Subscribe handler waiting>>>>
+ClearBlade platform initialized
+Topic: updateSensor/Humidity/450795 Message received: {"sensID":"450795","sensType":"Humidity","sensHeartbeat":"12.0"}
+Constructed Server.
+Server started.
+Added GatewayHandler.
+Added SensorHandler.
+Added ExceptionHandler.
+Added PersistSensorHandler.
+Added PersistGatewayHandler.
+Added UnknownGatewayHandler.
+Finished all inits
+Mine Library Version: 2.1.0.1
+Gateway 940597 registered.
+Here is the sensor list for this gateway:::
+[]
+940597
+Ethernet_3_0
+347452
+Humidity
+Sensor 347452 registered.
+450786
+Temperature
+Sensor 450786 registered.
+450788
+Current
+Sensor 450788 registered.
+450790
+Air_Flow_Detection
+Sensor 450790 registered.
+450791
+Pressure
+Sensor 450791 registered.
+450794
+DuctTemperature
+Sensor 450794 registered.
+450795
+Humidity 
+450796
+VibrationMeter
+Sensor 450796 registered.
+Subscribe handler waiting>>>>
+ClearBlade platform initialized
+Topic: updateSensor/Humidity/450795 Message received: {"sensID":"450795","sensType":"Humidity","sensHeartbeat":"12.0"}

@@ -1,0 +1,11 @@
+[Unit]
+Description = IoT Right ClearBlade Edge Service
+
+[Service]
+Type = forking
+ExecStart = /usr/local/bin/clearblade-edge.sh start
+ExecStop = /usr/local/bin/clearblade-edge.sh stop
+ExecReload = /usr/local/bin/clearblade-edge.sh restart
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  monnit:
+    build:
+      context: .
+    volumes:
+      - ./build/artifacts:/opt/monnit
+    ports:
+      - 3001:3000
+    depends_on:
+      - edge
+    command: java -jar -Dlog4j.configurationFile=log4j2.json -Dproperties=/opt/conf/app.properties -Ddevices=/opt/conf/devices.json Main.jar
+
+  cb-cli:
+    build:
+      context: ./cb-cli
+    image: iotright/cb-cli:stable
+    command: tail -f /dev/null
+
+  edge:
+    build:
+      context: ./docker-edge
+    image: iotr_cb_edge_2
+    working_dir: /usr/local/app
+    command: edge -platform-ip='platform.iotright.com' -parent-system='a8ec94c80ba2fba4d4e5c2d1f0f701' -edge-ip='localhost' -edge-id='DockerMonnitEdge' -edge-cookie='B3N1c5F73wa5QPYX5Hp9tGP4b'
+    ports:
+      - 1883:1883
+      - 1884:1884
+      - 8903:8903
+      - 8904:8904
+      - 8905:8905
+      - 8906:8906
+      - 8950:8950
+      - 9000:9000

@@ -1,0 +1,33 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+build
+dist
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.idea/
+"C:\\Users\\nagrawal\\Desktop\\Logfiles\\Logfile_2019-04-26.txt"
+JavaMineLibrary/MineGUI/build/production/
+/C:\Users\nagrawal\Desktop\Logfiles\Logfile_2019-04-26.txt
+/JavaMineLibrary/.DS_Store
+/JavaMineLibrary/MineGUI/logs/
+.DS_Store

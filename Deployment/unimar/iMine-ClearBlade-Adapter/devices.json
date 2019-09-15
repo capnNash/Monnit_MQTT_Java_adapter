@@ -1,0 +1,60 @@
+{
+  "gatewayID": 940597,
+  "gatewayType": "Ethernet_3_0",
+  "gatewayFirmwareVersion":"3.3.1.5",
+  "radioFirmwareVersion":"1.0.1.0",
+  "hostAddress":"0.0.0.0",
+  "sensors": [
+    {
+      "sensorID": "347452",
+      "sensorType": "Humidity",
+      "firmwareVersion":"9.15.8.2"
+    },
+    {
+      "sensorID": "450786",
+      "sensorType": "Quad_Temperature",
+      "firmwareVersion":"10.22.10.1"
+    },
+    {
+      "sensorID": "450788",
+      "sensorType": "Three_Phase_Current_Meter",
+      "firmwareVersion":"10.22.10.1"
+    },
+    {
+      "sensorID": "450790",
+      "sensorType": "Air_Speed",
+      "firmwareVersion":"10.22.10.2"
+    },
+    {
+      "sensorID": "450791",
+      "sensorType": "Differential_Pressure",
+      "firmwareVersion":"10.22.10.0"
+    },
+    {
+      "sensorID": "450794",
+      "sensorType": "DuctTemperature",
+      "firmwareVersion":"10.22.10.4"
+    },
+    {
+      "sensorID": "450795",
+      "sensorType": "Humidity",
+      "firmwareVersion":"10.22.10.5"
+    },
+    {
+      "sensorID": "450796",
+      "sensorType": "VibrationMeter",
+      "firmwareVersion":"10.22.10.2"
+    },
+    {
+      "sensorID": "487893",
+      "sensorType": "CO2_Meter",
+      "firmwareVersion":"10.23.13.25"
+    },
+    {
+      "sensorID": "349630",
+      "sensorType": "Voltage_Meter_500",
+      "firmwareVersion":"9.14.8.2"
+    }
+
+  ]
+}

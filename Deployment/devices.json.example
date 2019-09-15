@@ -1,0 +1,49 @@
+{
+  "gatewayID": 940597,
+  "gatewayType": "Ethernet_3_0",
+  "gatewayFirmwareVersion":"3.4.1.3",
+  "radioFirmwareVersion":"1.0.1.0",
+  "hostAddress":"0.0.0.0",
+  "sensors": [
+    {
+      "sensorID": "347452",
+      "sensorType": "Humidity",
+      "firmwareVersion":"2.5.4.3"
+    },
+    {
+      "sensorID": "450786",
+      "sensorType": "Temperature",
+      "firmwareVersion":"2.5.4.3"
+    },
+    {
+      "sensorID": "450788",
+      "sensorType": "Current",
+      "firmwareVersion":"2.5.4.3"
+    },
+    {
+      "sensorID": "450790",
+      "sensorType": "Air_Flow_Detection",
+      "firmwareVersion":"2.5.4.3"
+    },
+    {
+      "sensorID": "450791",
+      "sensorType": "Pressure",
+      "firmwareVersion":"2.5.4.3"
+    },
+    {
+      "sensorID": "450794",
+      "sensorType": "DuctTemperature",
+      "firmwareVersion":"2.5.4.3"
+    },
+    {
+      "sensorID": "450795",
+      "sensorType": "Humidity",
+      "firmwareVersion":"2.5.4.3"
+    },
+    {
+      "sensorID": "450796",
+      "sensorType": "VibrationMeter",
+      "firmwareVersion":"2.5.4.3"
+    }
+  ]
+}
