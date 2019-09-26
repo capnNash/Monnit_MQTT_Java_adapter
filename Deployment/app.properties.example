@@ -1,14 +1,15 @@
-systemKey=a8ec94c80ba2fba4d4e5c2d1f0f701
-systemSecret=A8EC94C80BCA8BFBD28AECD6CFA801
-userEmail=edger@unimar.com
-userPassword=password
-platformURL=http://edge:9000
-messagingURL=tcp://edge:1883
-# TODO refactor this path to iotright application standards, coordinate with CB system ? on relative
-sensorTopicPath=iMine/Sensors/
-updateSensorTopicPath=updateSensor/#
-gatewayTopicParth=/iotr/gw/
-clientID=iMineToCB
+systemKey=<YOUR IOT SYSTEM KEY>
+systemSecret=<YOUR IOT SYSTEM SECRET>
+email=<YOUR EMAIL/EDGE/SYSTEM EMAIL>
+password=<YOUR EMAIL PASSWORD>
+platformURL=<PUT THE PLATFORM/EDGE(LOCALHOST:PORT) URL>
+messagingURL=<PUT THE PLATFORM/EDGE(LOCALHOST:MESSAGEPORT) MESSAGING URL>
+# Needs to publish on both Edge and Platform, using _platform system flag on topic path
+sensorTopicPath=<MQTT TOPIC PATH PUBLISH>
+# the sensor topic path now has the _platform segment appended to it in code, as we need to pass the sensorId after the 'data' segment
+updateSensorTopicPath=<MQTT TOPIC PATH SUBSCRIBE>
+gatewayTopicPath=/iotr/gw/
+clientID=<MQTT CLIENT ID>
 gatewayFirmwareVersion=3.4.1.3
 radioFirmwareVersion=1.0.1.0
 hostAddress=0.0.0.0
